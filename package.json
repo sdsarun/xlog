@@ -1,6 +1,6 @@
 {
-  "name": "xlog",
-  "displayName": "xlog",
+  "name": "log-pilot",
+  "displayName": "LogPilot",
   "description": "just insert log.",
   "version": "0.0.1",
   "engines": {
@@ -16,6 +16,10 @@
       {
         "command": "xlog.helloWorld",
         "title": "Hello World"
+      },
+      {
+        "command": "xlog.showCurrentTime",
+        "title": "xlog: Show Current Time"
       }
     ]
   },
